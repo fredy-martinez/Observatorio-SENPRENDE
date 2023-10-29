@@ -35,10 +35,6 @@
 <!-- body -->
 
 <body class="main-layout">
-   <!-- loader  -->
-   <div class="loader_bg">
-      <div class="loader"><img src="images/loading.gif" alt="#" /></div>
-   </div>
    
    <!-- ! header -->
    <header>
@@ -135,10 +131,20 @@
                                     </ul>
                                   </div>
                               </li>
-                           
+
                               <li class="nav-item">
-                                 <a class="nav-link" href="#" border-radius: style="border-radius: 5px;"> Servicios </a>
-                              </li>                             
+                                 <div class="dropdown">
+                                    <button class="btn dropdown-toggle nav-link dropdown_color" style="height: 70px" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                      Servicios
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                      <li><a class="dropdown-item" href="./formalizacion.html">Formalización</a></li>
+                                      <li><a class="dropdown-item" href="#">Mercados</a></li>
+                                      <li><a class="dropdown-item" href="#">Financiera</a></li>
+                                      <li><a class="dropdown-item" href="#">Asistencia Técnica</a></li>
+                                    </ul>
+                                  </div>
+                              </li>
                            </ul>
                         </div>
                      </nav>
