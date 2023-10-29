@@ -19,9 +19,20 @@
 
 .card-img-top {
     max-width: 100%; /* Establecer el ancho máximo al 100% */
-    height:70%;    /* Ajustar automáticamente la altura para mantener la proporción */
+    height:100%;    /* Ajustar automáticamente la altura para mantener la proporción */
 
- }
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin: 4px;
+}
+
+.image-container img {
+  width: 100%; /* Ajusta el tamaño como desees */
+  max-width: 200px; /* Establece un ancho máximo si es necesario */
+}
 
  #side_nav{
     background: #30bad5;

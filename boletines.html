@@ -41,10 +41,9 @@
   </head>
   <body class="main-layout">
 
-   <!-- header -->
-   <header>
 
-    <!-- header inner -->
+    <!-- ! header -->
+   <header>
     <div class="header">
        <div class="header_to d_none bg-white text-dark">
           <div class="container">
@@ -52,9 +51,9 @@
                 <div class="col-md-4 col-sm-4">
 
                    <ul class="lan ">
-                    <a href="./index.html"> <li class="text-dark"><img class="w-75" src="./images/Observatorio-senprende.png"></li> </a>
-                  </ul>
-
+                      <li class="text-dark"><img class="w-75" src="./images/Observatorio-senprende.png"></li>
+                   </ul>
+             
                 </div>
                 <div class="col-md-4 d-flex align-items-center">
                    <input class="rounded form-control long-input m-3" type="text" placeholder="Buscar">
@@ -78,6 +77,7 @@
              </div>
           </div>
        </div>
+       
        <div class="header_bo navbar_colors">
           <div class="container">
              <div class="row">
@@ -94,11 +94,11 @@
 
                             <li class="nav-item">
                                <div class="dropdown">
-                                  <button class="btn dropdown-toggle nav-link dropdown_color" type="button" style="height: 70px;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <button class="btn dropdown-toggle nav-link dropdown_color" style="height: 70px" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     Estadisticas
                                   </button>
                                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="#">Mipymes constituidas</a></li>
+                                    <li><a class="dropdown-item" href="./estadisticaMipyme.html">Mipymes constituidas</a></li>
                                     <li><a class="dropdown-item" href="#">SSE</a></li>
                                     <li><a class="dropdown-item" href="#">Mercantiles</a></li>
                                   </ul>
@@ -106,26 +106,26 @@
                             </li>
 
                             <li class="nav-item">
-                               <a target="_blank" class="nav-link" style="border-radius: 5px; height: 70px;" href="https://senprende.hn/?page_id=7450">¿Quienes Somos?</a>
+                               <a class="nav-link" style="height: 70px; border-radius: 5px;" href="./quienesSomos.html">¿Quienes Somos?</a>
                             </li>
 
                             <li class="nav-item">
                                <div class="dropdown">
-                                  <button class="btn dropdown-toggle nav-link dropdown_color" type="button" style="height: 70px;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <button class="btn dropdown-toggle nav-link dropdown_color" style="height: 70px" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     Herramientas
                                   </button>
                                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="./herramientas.html">Herramientas</a></li>
-                                    <li><a target="_blank" class="dropdown-item" href="https://calculadoraipc.ine.cl/">Calculadora IPC</a></li>
-                                    <li><a class="dropdown-item" href="#">Agenda de eventos</a></li>
-                                    <li><a class="dropdown-item" href="#">Mapa Geografico</a></li>
+                                     <li><a class="dropdown-item" href="./herramientas.html">Herramientas</a></li>
+                                     <li><a target="_blank" class="dropdown-item" href="https://calculadoraipc.ine.cl/">Calculadora IPC</a></li>
+                                     <li><a class="dropdown-item" href="#">Agenda de eventos</a></li>
+                                     <li><a class="dropdown-item" href="#">Mapa Geografico</a></li>
                                   </ul>
                                 </div>
                             </li>
 
                             <li class="nav-item">
                                <div class="dropdown">
-                                  <button class="btn dropdown-toggle nav-link dropdown_color" type="button" style="height: 70px;" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                  <button class="btn dropdown-toggle nav-link dropdown_color" style="height: 70px" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     Boletines
                                   </button>
                                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -139,7 +139,7 @@
                             </li>
                          
                             <li class="nav-item">
-                               <a class="nav-link" href="#"> Servicios </a>
+                               <a class="nav-link" href="#" border-radius: style="border-radius: 5px;"> Servicios </a>
                             </li>                             
                          </ul>
                       </div>
@@ -147,6 +147,7 @@
                 </div>
                 <div class="col-md-3 col-sm-5 d_none">
                    <ul class="sign">
+                      <!-- <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li> -->
                       <li><a class="sign_btn" href="#">Registrate Ya!</a></li>
                    </ul>
                 </div>
@@ -154,9 +155,9 @@
           </div>
        </div>
     </div>
-
-
  </header>
+ <!-- ! end header -->
+ 
 
   <div class="col span_12 section-title centrado mt-4"  >
     <h1><b>Boletines</b></h1>
